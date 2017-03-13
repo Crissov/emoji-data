@@ -3,14 +3,17 @@ images for use on the web.
 
 You can see a catalog of the emoji data here: http://unicodey.com/emoji-data/table.htm
 
+## Image Sources
+
 Images are extracted from their sources and this library attempts to track the latest
-available versions. If you're looking for older versions of Apple of Android images
+available versions. If you're looking for older versions of Apple or Android images
 (such as the Hairy Heart) then you'll need to look at previous revisions.
 
 * Apple Emoji: Copyright &copy; Apple Inc. - OS X 10.11.1
-* Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - Lollipop
-* Twitter Emoji Copyright &copy; Twitter, Inc. - The original release
+* Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - Nougat
+* Twitter Emoji: Copyright &copy; Twitter, Inc. - The original release
 * Emoji One Emoji: Copyright &copy; [Ranks.com Inc.](http://www.emojione.com/developers) - master as of 2015-03-05
+* Facebook/Messenger Emoji: Copyright &copy; Facebook, Inc. - v7
 
 ## Libraries which use this data
 
@@ -54,6 +57,8 @@ look like this:
 			"has_img_google": true,
 			"has_img_twitter": true,
 			"has_img_emojione": false,
+			"has_img_facebook": false,
+			"has_img_messenger": false,
 			"skin_variations": {
 				"261D-1F3FB": {
 					"unified": "261D-1F3FB",
@@ -64,6 +69,8 @@ look like this:
 					"has_img_google": false,
 					"has_img_twitter": false,
 					"has_img_emojione": false
+					"has_img_facebook": false
+					"has_img_messenger": false
 				},
 				...
 			}
